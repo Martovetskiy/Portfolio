@@ -1,0 +1,15 @@
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 94px 180px;
+}
+footer p{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+    width: 100%;
+}

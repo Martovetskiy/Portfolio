@@ -1,0 +1,21 @@
+---
+import '../styles/global.css'
+import {NavBar} from '../components/NavBar.tsx'
+import {Home} from '../components/Home.tsx'
+import {Footer} from '../components/Footer.tsx'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Portfolio Bodnar</title>
+	</head>
+	<body class="flex flex-col items-center">
+		<NavBar/>
+		<Home client:load/>
+		<Footer/>
+	</body>
+</html>
